@@ -16,8 +16,21 @@ header {
 header,
 footer {
       
-    background: url(../img/пример\ 2.jpg);  
+    background-image: url(../img/пример\ 2.jpg);  
     background-size: cover;
+    background-repeat: repeat-x;
+    animation: slide 30s linear infinite;
+}
+@keyframes slide{
+    0%{
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position: 100% 0%;
+    }
+    100%{
+        background-position: 0% 0%;
+    }
 }
 .wq{
     color: var(--color2);
