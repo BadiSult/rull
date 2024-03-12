@@ -122,14 +122,34 @@ color:var(--color2)
      text-align: center;
 }
 .col-12 h1{
-    background-color: var(--color1);
-     width: 600px;
-     margin:  auto;
-     border-radius: 10px 100px / 120px;;
+     
+     
+      color: #290229;
+      
+      
+     border-radius: 10px 10px;
 }
+.rt{
+    width:  500px;
+     margin: auto;
+     
+}
+.prob{
+    border: var() solid 1px;
+    background-color: #19051fb0 ;
+    color: #ffffffa6;
+    border-radius: 20px 20px;
+    border-width: 0 auto;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+}
+
 .col-12 h2.a:hover{
      color: black;
 }
+ .as{
+    font-size: 10px;
+ }
 .qw{
     
     border-image: 10px;
