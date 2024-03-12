@@ -19,7 +19,14 @@ footer {
     background: url(../img/пример\ 2.jpg);  
     background-size: cover;
 }
+.wq{
+    color: var(--color2);
+    text-decoration: none;
 
+}
+.wq:hover{
+    color: var(--color1);
+}
 .itd_play {
     background-color: var(--color1);
     width: 60px;
@@ -131,9 +138,7 @@ color:var(--color2)
      margin: auto;
      
 }
-.rq{
-     
-}
+ 
 .accordion-button:not(.collapsed) {
     color: var(--bs-black);
     background-color: var(--bs-white);
