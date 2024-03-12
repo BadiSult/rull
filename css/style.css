@@ -1,6 +1,6 @@
 :root {
-    --color1: #05b1b1;
-    --color2: #52339d;
+    --color1: #b9b9b9;
+    --color2: #343435;
 }
 
 header,
@@ -15,9 +15,9 @@ header {
 
 header,
 footer {
-     
-    background: url(../img/pattern.png), linear-gradient(90deg, var(--color1) 0%, var(--color2)100%);
-    background-size: contain;
+      
+    background: url(../img/пример\ 2.jpg);  
+    background-size: cover;
 }
 
 .itd_play {
@@ -85,7 +85,7 @@ color:var(--color2)
 }
 .itd_circle{
     margin: 0 auto 15px;
-
+     
     width: 70px;
     height: 70px;
     border: 3px solid var(--color2);
@@ -111,7 +111,29 @@ color:var(--color2)
     padding: 50px;
     border: 3px solid var(--color1);
 }
-
+.row h5{
+     text-align: center;
+}
+.col-12 h1{
+    background-color: var(--color1);
+     width: 600px;
+     margin:  auto;
+     border-radius: 10px 100px / 120px;;
+}
+.col-12 h2.a:hover{
+     color: black;
+}
+.qw{
+    
+    border-image: 10px;
+}
+.a.silky{
+     margin: auto;
+     
+}
+.rq{
+     
+}
 .accordion-button:not(.collapsed) {
     color: var(--bs-black);
     background-color: var(--bs-white);
